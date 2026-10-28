@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3005ffe9-7303-4dd9-8daf-322fcd8ff2f5">
+  <name>БухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.БухгалтерскийУчет</picture>
+  </picture>
+  <content>ChartOfAccounts.Управленческий</content>
+  <content>AccountingRegister.Хозяйсвенный</content>
+  <content>Document.Отправление</content>
+  <content>Document.Прибытие</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Report.ЗадержкаТоваров</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+</mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eec8974d-c028-4e8e-b1ed-297352c96457">
+  <producedTypes>
+    <objectType typeId="f2452d78-ff91-4aa2-911e-1dfa714b4a98" valueTypeId="f359d449-73ef-43bb-8f50-25c4878ea0ba"/>
+    <managerType typeId="8067d86f-e3aa-40c3-9221-01465f05eba2" valueTypeId="372f6fd7-3909-442b-9f02-e2f43cbd9e57"/>
+  </producedTypes>
+  <name>ЗадержкаТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задержка товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗадержкаТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="651188f5-feb4-4020-b6f9-97cc34cbbf9b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

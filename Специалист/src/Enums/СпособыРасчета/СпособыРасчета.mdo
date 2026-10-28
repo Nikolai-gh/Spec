@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1211096-eca3-45e0-862d-db7290dec5b0">
+  <producedTypes>
+    <refType typeId="ecbf220f-4559-4455-9b18-d0f8038a0036" valueTypeId="9b3856a1-59a4-456e-9ef2-1e80261accfc"/>
+    <listType typeId="404b4786-ceaa-43ad-bdb6-84459315912e" valueTypeId="7b59123f-ee17-482a-8b92-6f4a36675258"/>
+    <managerType typeId="3e9cb979-3815-4580-bfce-88e542e56450" valueTypeId="1bfa3d38-9838-458b-94df-744a6ba90121"/>
+  </producedTypes>
+  <name>СпособыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="826fef42-2a91-46a3-9be1-f40eb9e89253">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ceb1d9b7-b91f-4b3d-a7b9-440a21d0eed9">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70fb91ce-cd1d-4145-a1b1-7f6f4a615411">
+    <name>Премия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e38e58de-8cf4-43da-9202-3c721b0ffdf0">
+    <name>Профсоюз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профсоюз</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

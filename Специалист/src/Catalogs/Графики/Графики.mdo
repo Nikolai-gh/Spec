@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7300a0d5-533e-4eef-8076-9c503f8a1b3e">
+  <producedTypes>
+    <objectType typeId="b44df52a-e661-4537-acd5-4f18cd6866d7" valueTypeId="f4f24f54-4559-4665-b37d-434c660ce94e"/>
+    <refType typeId="c70c0352-a1c0-45a2-b102-b4be2b9a86eb" valueTypeId="b0d79d3d-55c3-43eb-956f-46b0c2f05872"/>
+    <selectionType typeId="6f4bb7fd-f79f-488f-92a0-4e872531591c" valueTypeId="3f994e23-74f0-4b0a-ae39-47b80c014958"/>
+    <listType typeId="684151f4-c902-4c5c-beef-0645c24bf5c2" valueTypeId="6a94c00d-477a-4192-843d-771d0ef39118"/>
+    <managerType typeId="b01b3a35-5172-4254-a5ae-eba408e1bbad" valueTypeId="171b57f0-9fd2-4bb7-a2c2-83572004e0bf"/>
+  </producedTypes>
+  <name>Графики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Графики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Графики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

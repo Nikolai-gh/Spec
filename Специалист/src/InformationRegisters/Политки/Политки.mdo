@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e4d4a31-ef9f-4301-a99b-a96f724cbe3b">
+  <producedTypes>
+    <selectionType typeId="942a2f55-7a52-4e62-ad7d-cbba4ef00eac" valueTypeId="8874ec7e-43df-47c6-9ee4-856083b434f2"/>
+    <listType typeId="2510dc66-8e82-4624-9673-dc5937843511" valueTypeId="a9a1b6bf-7ab0-4260-b800-d64e460c3679"/>
+    <managerType typeId="0bc97ba8-4993-47a7-9206-6a720a9cd468" valueTypeId="76a4adea-a8f0-4dad-9688-3d22e2599fc3"/>
+    <recordSetType typeId="3576e48e-a90e-4db6-9808-6807005159ed" valueTypeId="ac031034-34ba-4e15-ab86-486168570dfc"/>
+    <recordKeyType typeId="9a38f2e4-a685-4d84-9a7e-6ecbc668d1bb" valueTypeId="81233d11-9b95-47a8-8040-c93c5f140c23"/>
+    <recordType typeId="092e6e09-7872-4234-96bf-585132e4d106" valueTypeId="832bf915-2779-4897-a4ec-4d70c1bba0ca"/>
+    <recordManagerType typeId="c4ff6891-77d6-4cf6-ab25-3300c73ef419" valueTypeId="b6fa3be9-1ec2-435b-bef0-3caafea36f77"/>
+  </producedTypes>
+  <name>Политки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Политки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0d2ee886-7a57-4d37-9049-b3dfe2a1a033">
+    <name>Политика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Политика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

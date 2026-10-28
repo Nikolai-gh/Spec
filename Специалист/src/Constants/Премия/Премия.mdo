@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfee6d0e-c2db-417e-93d3-aa1097097976">
+  <producedTypes>
+    <managerType typeId="c6f1eecf-2074-49c6-bda1-eadb3621da3d" valueTypeId="9c6bab00-6761-45d1-8e1e-c4e8e7a9dc62"/>
+    <valueManagerType typeId="06b9541e-1dd8-4bfa-8ee0-58f89d5ecc95" valueTypeId="e67a0215-76b3-4ee2-9066-50df92b7ad67"/>
+    <valueKeyType typeId="0aa7ff47-2d31-46b6-93d5-e97672130709" valueTypeId="f8f592a1-167e-4a00-96ad-77037183b483"/>
+  </producedTypes>
+  <name>Премия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премия</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.Премия</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

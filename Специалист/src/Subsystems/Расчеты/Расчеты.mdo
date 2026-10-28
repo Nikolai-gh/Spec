@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a47ad3d1-5b1e-47d6-a126-9f422d3ca225">
+  <name>Расчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расчеты</picture>
+  </picture>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>InformationRegister.СведенияОСотрудниках</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>CalculationRegister.Удержания</content>
+  <content>Constant.Премия</content>
+  <content>Enum.СпособыРасчета</content>
+  <content>CommonForm.Премия</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.Удержания</content>
+  <content>Catalog.Графики</content>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ДополнительныеНачисления</content>
+  <content>Report.Диаграмма</content>
+  <content>34c3642a-4573-4068-8f6f-bbdbf1abed16</content>
+  <content>Document.Прибытие</content>
+</mdclass:Subsystem>
